@@ -171,11 +171,13 @@ h1{
 .meninas{
     width: 450px;
     height: auto;
+    margin: 0;
 }
 
 .tituloConquista{
    text-align: center;
    margin: 15px;
+   
    
 }
 
@@ -183,16 +185,21 @@ h1{
     display: flex;
     align-items: center;
     padding: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     text-align: left;
     font-family: "GFS Neohellenic", sans-serif;
+    
 }
     
 .titulinho{
     font-family: "GFS Neohellenic", sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
     color: #9C47A5;
+}
+
+p{
+    font-size: 22px;
 }
 
 
@@ -201,39 +208,59 @@ h1{
     font-weight: bold;
     font-size: 30px;
    color: #FFFFFF;
-   margin-left: 10px;
+   margin-left: 20px;
+   margin-top: 30px;
+   
+  
 }
+   
+   
+
 
 .tituloConquista{
     font-family: "GFS Neohellenic", sans-serif;
     font-weight: bold;
     font-size: 40px;
     color: #832F8C;
+    padding-bottom: 0px;
+    margin: 0;
+    margin-top: 30px;
 }
 
 .textoConquista{
     font-family: "Georama", sans-serif;
     font-size: 20px;
+    margin-left: 30px;
 
+}
+
+.blocoConquista{
+    margin-left: 35px;
 }
 
 .blocoA{
     padding: 0;
-}
-.roda{
-  background-color: #30094B;
-  width: 1520px;
-  height: 200px;
-  font-family: "GFS Neohellenic", sans-serif;
   
 }
+.roda{
+    background-color: #30094B;
+    width: 1520px;
+    height: 200px;
+    font-family: "GFS Neohellenic", sans-serif;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
 
-.final{
+.finalFrase{
     font-family: "GFS Neohellenic", sans-serif;
     font-weight: bold;
     font-size: 25px;
-    padding-left: 445px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   
+    
    
    
 }
@@ -243,23 +270,29 @@ h1{
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 50px;
+
+
 }
 
 .gitHub{
-  padding: 9px;
+  padding: 5px;
+  width: 40px;
+ 
  
 }
  .email{
-    padding: 9px
+    padding: 5px;
+    width: 40px;
  }
 
  .whatsapp{
-    padding: 9px;
+    padding: 5px;
+    width: 40px;
  }
 
  .linkedin{
-    padding: 9px;
+    padding: 5px;
+    width: 40px;
  }
 
 
