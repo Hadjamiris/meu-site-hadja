@@ -296,33 +296,20 @@ align-items: center;
  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 600px) {
+    
     .hadja{
         width: 40%;
     } 
     .bloco, nav{
         display: block;
+
     }
+    
+    .roda { 
+        display: block;
+    }
+     
 
   }
-  
   
